@@ -172,4 +172,4 @@ Codex 的 TOML 采用"文本块手术"而非整文件反序列化：只增删目
 
 ## License
 
-MIT
+Apache-2.0
