@@ -1,0 +1,28 @@
+{
+  "name": "agentpark",
+  "version": "0.1.0",
+  "description": "AI 编程智能体的扩展生命周期管理器：技能与 MCP 按使用频率自动休眠/唤醒、启动时装配、使用统计。支持 Claude Code / ZCode / Codex / Gemini CLI。",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "agentpark": "src/cli.js",
+    "apark": "src/cli.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node tests/smoke.mjs"
+  },
+  "keywords": [
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "gemini-cli",
+    "zcode",
+    "mcp",
+    "agent-skills",
+    "context-window",
+    "lifecycle"
+  ]
+}
